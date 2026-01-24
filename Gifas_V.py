@@ -21,8 +21,6 @@ from pathlib import Path
 import hashlib
 import streamlit as st
 
-st.cache_data.clear()
-st.cache_resource.clear()
 # =========================
 # ✅ VERSIONING PERSISTANT
 # =========================
