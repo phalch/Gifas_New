@@ -627,6 +627,7 @@ EVUECHF              = round(dE_h["CHF_EVU_KMU"].sum(), 0)
 dE_h["UG1"]             = dE_h["kWh_EV Produzent"]                 
 monthly_sum_UG1         = dE_h["UG1"].resample("ME").sum()
 UG                      = round(dE_h["UG1"].sum(), 0)
+st.write("UG=",UG)
 dE_h["EVUPCH"]          = dE_h["kWh_EV Produzent"]*VG/100
 EVUPCH                  = round(dE_h["EVUPCH"].sum(),0)
 
