@@ -33,7 +33,7 @@ LAST_VERSION_FILE = Path(".last_version")  # ✅ nouveau
 def normalize_version(v: str) -> str:
     v = (v or "").strip()
     if not v:
-        return "V3.0"
+        return "V4.0"
     if not v.upper().startswith("V"):
         v = "V" + v
     body = v[1:]
